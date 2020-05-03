@@ -1,0 +1,7 @@
+# Enter your code here. Read input from STDIN. Print output to STDOUT
+n=int(input())
+for i in range(n):
+    s=input()
+    a=s[0:len(s):2]
+    b=s[1:len(s):2]
+    print(str(a)+" "+str(b))
