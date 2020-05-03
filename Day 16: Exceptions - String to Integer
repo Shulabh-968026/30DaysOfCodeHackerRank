@@ -1,0 +1,13 @@
+import sys
+
+
+S = input().strip()
+n=0
+try:
+    try:
+        n=ord(S)-48
+        print(n)
+    except:
+        print(int(S))
+except:
+    print("Bad String")
